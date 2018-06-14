@@ -1,0 +1,7 @@
+*.gem
+.bundle
+.config
+Gemfile.lock
+*.bundle
+.DS_Store
+test-site/
