@@ -205,8 +205,8 @@ module Jekyll
       puts response.body
       poet_response = JSON.parse(response.body)
 
-       puts "Attempted to stamp '#{payload['name']}' on the Po.et network via the Frost API as #{payload['publishStatus']} (#{poet_response['data']['url']})"
-        return poet_response['data']['url']
+       puts "Attempted to stamp '#{payload['name']}' on the Po.et network via the Frost API."
+        return poet_response
 
     end
     def is_defined(obj)
