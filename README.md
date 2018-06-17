@@ -1,5 +1,7 @@
 # Crosspost to Po.et Network Generator for Jekyll
 
+[![Join the chat at https://gitter.im/jekyll-crosspost-to-poet/Lobby](https://badges.gitter.im/jekyll-crosspost-to-poet/Lobby.svg)](https://gitter.im/jekyll-crosspost-to-poet/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This plugin makes it possible to automatically syndicate your posts to the [Po.et network](https://po.et) from your [Jekyll](https://jekyllrb.com) projects.
 
 This is a fork of [Aaron Gustafson](https://www.aaron-gustafson.com)'s [jekyll-crosspost-to-medium](https://github.com/aarongustafson/jekyll-crosspost-to-medium) project, updated with support for the latest version of Jekyll and configured to work with the Frost API.
