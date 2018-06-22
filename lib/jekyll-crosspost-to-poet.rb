@@ -1,19 +1,36 @@
-#  By Solomon Victorino (bitsol), based on the work of Aaron Gustafson, based on the work of Jeremy Keith
-#  https://github.com/aarongustafson/jekyll-crosspost_to_medium
-#  https://gist.github.com/adactio/c174a4a68498e30babfd
-#  Licence : MIT
-#
-#  This generator cross-posts entries to the Po.et network. To work, this script requires
-#  a FROST_TOKEN environment variable.
-#
-#  The generator will only pick up posts with the following front matter:
-#
-#  `crosspost_to_poet: true`
-#
-#  You can control crossposting globally by setting `enabled: true` under the
-#  `jekyll-crosspost_to_poet` variable in your Jekyll configuration file.
-#  Setting it to false will skip the processing loop entirely which can be
-#  useful for local preview builds.
+=begin
+  This generator cross-posts entries to the Po.et network.
+      Copyright (C) 2018  Solomon Victorino, based on the work of Aaron Gustafson, based on the work of Jeremy Keith
+
+      This program is free software: you can redistribute it and/or modify
+      it under the terms of the GNU Affero General Public License as published
+      by the Free Software Foundation, either version 3 of the License, or
+      (at your option) any later version.
+
+      This program is distributed in the hope that it will be useful,
+      but WITHOUT ANY WARRANTY; without even the implied warranty of
+      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+      GNU Affero General Public License for more details.
+
+      You should have received a copy of the GNU Affero General Public License
+      along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+  Sources for Aaron Gustafson's original work:
+  https://github.com/aarongustafson/jekyll-crosspost_to_medium
+  based on the work of Jeremy Keith:
+  https://gist.github.com/adactio/c174a4a68498e30babfd
+
+  To work, this script requires a FROST_TOKEN environment variable.
+  
+  The generator will only pick up posts with the following front matter:
+
+  `crosspost_to_poet: true`
+
+  You can control crossposting globally by setting `enabled: true` under the
+  `jekyll-crosspost_to_poet` variable in your Jekyll configuration file.
+  Setting it to false will skip the processing loop entirely which can be
+  useful for local preview builds.
+=end
 
 require 'json'
 require 'net/http'
