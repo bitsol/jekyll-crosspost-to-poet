@@ -1,5 +1,5 @@
 =begin
-  This generator cross-posts entries to the Po.et network.
+  jekyll-crosspost-to-poet: This generator crossposts entries to the Po.et network.
       Copyright (C) 2018  Solomon Victorino, based on the work of Aaron Gustafson, based on the work of Jeremy Keith
 
       This program is free software: you can redistribute it and/or modify
