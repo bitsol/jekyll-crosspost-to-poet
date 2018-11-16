@@ -21,7 +21,7 @@ EOF
   s.files       = ["lib/jekyll-crosspost-to-poet.rb"]
   s.homepage    = ''
   #s.homepage = 'http://rubygems.org/gems/jekyll-crosspost-to-poet'
-  s.license     = 'MIT'
+  s.license     = 'AGPL-3.0-or-later'
 
   s.add_runtime_dependency "jekyll", ">= 2.0", "< 4.0"
   s.add_runtime_dependency "json", "~> 2.0"
